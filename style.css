@@ -1,6 +1,6 @@
 body{
 	background-color: white;
-	background-image: url("ballon race.png"); 
+	background-image: url("ballon race.png");
 	background-opacity: .8;
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -88,7 +88,7 @@ h5{
 	list-style: none;
 	font-size: 20px;
 	color: rgb(7, 27, 132);
-	
+
 }
 #main li{
 	list-style: none;
@@ -116,4 +116,24 @@ h5{
 	color: white;
 	text-align: right;
 
+}
+
+canvas {
+  display: block;
+  align:center;
+  margin:auto;
+  border: auto;
+  border-color: #fa4f49;
+  border-width: 6px;
+  border-style: solid;
+}
+
+.row {
+  margin: 50px;
+  display: flex;
+}
+
+.column {
+  margin: 10px;
+  flex: 50%;
 }
